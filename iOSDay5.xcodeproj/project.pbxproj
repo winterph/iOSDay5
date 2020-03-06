@@ -13,6 +13,7 @@
 		9B9BD4212413107800490079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9BD41F2413107800490079 /* Main.storyboard */; };
 		9B9BD4232413107900490079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9BD4222413107900490079 /* Assets.xcassets */; };
 		9B9BD4262413107900490079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9BD4242413107900490079 /* LaunchScreen.storyboard */; };
+		9B9BD42E2413109A00490079 /* Employee.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B9BD42D2413109A00490079 /* Employee.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9B9BD4222413107900490079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B9BD4252413107900490079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B9BD4272413107900490079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9BD42D2413109A00490079 /* Employee.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Employee.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9B9BD4222413107900490079 /* Assets.xcassets */,
 				9B9BD4242413107900490079 /* LaunchScreen.storyboard */,
 				9B9BD4272413107900490079 /* Info.plist */,
+				9B9BD42D2413109A00490079 /* Employee.plist */,
 			);
 			path = iOSDay5;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9BD42E2413109A00490079 /* Employee.plist in Resources */,
 				9B9BD4262413107900490079 /* LaunchScreen.storyboard in Resources */,
 				9B9BD4232413107900490079 /* Assets.xcassets in Resources */,
 				9B9BD4212413107800490079 /* Main.storyboard in Resources */,

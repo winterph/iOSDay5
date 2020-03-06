@@ -12,9 +12,51 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        readPlistData()
     }
 
-
+    func readPlistData()
+    {
+        if let bundlePath = Bundle.main.path(forResource: "Employee", ofType: "plist")
+        {
+            //print(path)
+        
+            if let dictionary = NSMutableDictionary(contentsOfFile: bundlePath)
+            {
+            //print(dictionary)
+            if let countries = dictionary["countries"] as? [String]
+            {
+                for v in countries
+                {
+                    print(v)
+                }
+                
+            }
+                if let users = dictionary["users"] as? [[String:String]]
+                {
+                    var flag = false
+                    for userList in users
+                    {
+                        if userList["username"] == "abc" && userList["password"] == "123"
+                        {
+                            flag = true
+                            
+                        }
+                        if flag == true{
+                        print("Valid User")
+                        }else{
+                                print("invalid user")
+                            }
+                        
+                    }
+                    
+                }
+                
+            }
+            
+        }
+    }
 }
+
 
